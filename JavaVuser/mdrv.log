@@ -1,0 +1,14 @@
+Notify: search current JDK in Windows registry at(SOFTWARE\JavaSoft\Java Development Kit)
+Notify: JDK found at C:/Program Files/Java/jdk1.8.0_144
+Virtual User Script started at: 17.10.2017 0:46:43
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Actions.
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
