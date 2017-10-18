@@ -1,0 +1,9 @@
+[parameter:count]
+BlockSize="99"
+Format="%d"
+GenerateNewVal="EachIteration"
+OriginalValue="4"
+OutOfRangePolicy="ContinueWithLast"
+ParamName="count"
+StartValue="1"
+Type="Unique"

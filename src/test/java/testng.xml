@@ -1,15 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite">
+<suite name="PPRB">
+    <test name="SingletonProjectGetTest">
+        <classes>
+            <class name="SingletonProjectGetTest"/>
+        </classes>
+    </test>
     <test name="SingletonProjectChangeTest">
         <parameter name="index" value="2"/>
         <classes>
-            <class name="SingletonProjectChangeTest" />
-        </classes>
-</test>
-
-    <test name = "SingletonProjectGetTest">
-        <classes>
-            <class name="SingletonProjectGetTest"/>
+            <class name="SingletonProjectChangeTest"/>
         </classes>
     </test>
 </suite>

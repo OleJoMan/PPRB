@@ -11,6 +11,7 @@
       </class> <!-- SingletonProjectChangeTest -->
       <class name="SingletonProjectGetTest">
         <methods>
+          <include name="testGet"/>
           <include name="setSt"/>
         </methods>
       </class> <!-- SingletonProjectGetTest -->

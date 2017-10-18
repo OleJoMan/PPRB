@@ -32,6 +32,7 @@ public class SingletonProject {
 
     public String change(int index, String value) {
         list.add(index, value);
+        System.out.println(list.get(index));
         return list.get(index);
     }
 

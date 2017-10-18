@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PPRB">
+
+<test name="SingletonProjectChangeTest">
+    <parameter name="index" value="2"/>
+    <classes>
+        <class name="SingletonProjectChangeTest"/>
+    </classes>
+</test>
+</suite>

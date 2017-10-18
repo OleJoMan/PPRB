@@ -1,7 +1,10 @@
 import org.testng.Assert;
+import org.testng.TestNG;
 import org.testng.annotations.*;
 
-public class SingletonProjectChangeTest extends Assert {
+import static org.testng.AssertJUnit.assertEquals;
+
+public class SingletonProjectChangeTest extends TestNG {
     private static SingletonProject st;
 
 

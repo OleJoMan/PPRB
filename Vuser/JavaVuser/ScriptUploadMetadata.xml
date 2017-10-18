@@ -11,23 +11,34 @@
     <FileEntry Name="JavaVuser.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
-    <FileEntry Name=".classpath" Filter="1" />
-    <FileEntry Name=".project" Filter="1" />
+    <FileEntry Name="JavaVuser.prm" Filter="2" />
+    <FileEntry Name="index(1).dat" Filter="2" />
+    <FileEntry Name="index.dat" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
+    <FileEntry Name="int.dat" Filter="2" />
+    <FileEntry Name="231324786440.idx" Filter="1" />
     <FileEntry Name="Action.c" Filter="1" />
     <FileEntry Name="Actions.class" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="JavaVuser.prm.bak" Filter="1" />
     <FileEntry Name="JavaVuser.sdf" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="PPRB-1-tests.jar" Filter="1" />
+    <FileEntry Name="PPRB-1.jar" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="testng-6.8.jar" Filter="1" />
+    <FileEntry Name="testngChange.xml" Filter="1" />
+    <FileEntry Name="testngGet.xml" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="vuser_end.c" Filter="1" />
     <FileEntry Name="vuser_init.c" Filter="1" />
+    <FileEntry Name="test-output\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
