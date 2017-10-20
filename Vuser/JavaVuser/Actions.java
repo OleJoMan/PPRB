@@ -25,6 +25,7 @@ public class Actions
 		lr.start_transaction("getTest");
 		getTest();
 		lr.end_transaction("getTest", lr.AUTO);
+
 		lr.start_transaction("changeTest");		
 		changeTest(lr.eval_string("{count}"));
 		lr.end_transaction("changeTest", lr.AUTO);
