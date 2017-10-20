@@ -7,7 +7,6 @@ public class SingletonProject {
     private Random random = new Random();
 
     private SingletonProject() {
-
     }
 
     public static synchronized SingletonProject getInstance() {
@@ -18,10 +17,12 @@ public class SingletonProject {
     }
 
     public void populate() {
-        if (list == null) {
-            list = new ArrayList<String>();
-            for (int i = 0; i < 100; i++) {
-                list.add(random.nextInt() % 2 == 0 ? "Pass" : "Fail");
+        synchronized (list) {
+            if (list == null) {
+                list = new ArrayList<String>();
+                for (int i = 0; i < 100; i++) {
+                    list.add(random.nextInt() % 2 == 0 ? "Pass" : "Fail");
+                }
             }
         }
     }
@@ -31,9 +32,11 @@ public class SingletonProject {
     }
 
     public String change(int index, String value) {
-        list.add(index, value);
-        System.out.println(list.get(index));
-        return list.get(index);
+        synchronized (list) {
+            list.add(index, value);
+            System.out.println(list.get(index));
+            return list.get(index);
+        }
     }
 
 }
