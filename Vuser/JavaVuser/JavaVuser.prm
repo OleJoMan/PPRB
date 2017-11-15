@@ -1,9 +1,8 @@
 [parameter:count]
-BlockSize="99"
-Format="%d"
+Format="%lu"
 GenerateNewVal="EachIteration"
+MaxValue="99"
+MinValue="0"
 OriginalValue="2"
-OutOfRangePolicy="ContinueWithLast"
 ParamName="count"
-StartValue="1"
-Type="Unique"
+Type="Random"
